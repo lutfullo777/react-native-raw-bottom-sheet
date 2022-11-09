@@ -171,7 +171,7 @@ RBSheet.defaultProps = {
   dragFromTopOnly: false,
   closeOnPressMask: true,
   closeOnPressBack: true,
-  keyboardAvoidingViewEnabled: Platform.OS === "ios",
+  keyboardAvoidingViewEnabled: true,
   customStyles: {},
   onClose: null,
   onOpen: null,
